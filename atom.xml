@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-04T10:01:34.000Z</updated>
+  <updated>2016-09-04T12:51:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,20 +16,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>mypost</title>
+    <title>First Independent Blog</title>
     <link href="http://yoursite.com/2016/09/04/mypost/"/>
     <id>http://yoursite.com/2016/09/04/mypost/</id>
-    <published>2016-09-04T09:57:33.000Z</published>
-    <updated>2016-09-04T10:01:34.000Z</updated>
+    <published>2016-09-04T13:49:11.796Z</published>
+    <updated>2016-09-04T12:51:54.000Z</updated>
     
     <summary type="html">
     
     </summary>
     
-      <category term="life" scheme="http://yoursite.com/categories/life/"/>
+      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
     
     
-      <category term="thinking" scheme="http://yoursite.com/tags/thinking/"/>
+      <category term="Thinking" scheme="http://yoursite.com/tags/Thinking/"/>
+    
+      <category term="Start" scheme="http://yoursite.com/tags/Start/"/>
     
   </entry>
   
