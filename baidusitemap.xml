@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/09/05/new-artical/</loc>
+    <lastmod>2016-09-05T03:23:48.019Z</lastmod>
+    <data>
+        <display>
+        <title>new artical</title>
+        <pubTime>2016-09-05T03:22:47.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/09/04/mypost/</loc>
+    <lastmod>2016-09-04T12:51:54.432Z</lastmod>
+    <data>
+        <display>
+        <title>First Independent Blog</title>
+        <pubTime>2016-09-04T12:51:54.432Z</pubTime>
+        
+        <tag>Thinking</tag>
+         
+        <tag>Start</tag>
+         
+         
+           
+             
+              <breadCrumb title="Life" url="http://yoursite.com/categories/Life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>

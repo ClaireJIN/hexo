@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-04T12:51:54.000Z</updated>
+  <updated>2016-09-05T03:23:48.019Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>new artical</title>
+    <link href="http://yoursite.com/2016/09/05/new-artical/"/>
+    <id>http://yoursite.com/2016/09/05/new-artical/</id>
+    <published>2016-09-05T03:22:47.000Z</published>
+    <updated>2016-09-05T03:23:48.019Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-Markdown-in-VS-Code"><a href="#Hello-Markdown-in-VS-Code" class="headerlink" title="Hello Markdown in VS Code!"></a>Hello Markdown in VS Code!</h1><p>This is a simple introduction to compiling Markdown in VS Code.</p>
+<p>Things you’ll need:</p>
+<ul>
+<li><a href="https://nodejs.org" target="_blank" rel="external">node</a></li>
+<li><a href="https://www.npmjs.com/package/marked" target="_blank" rel="external">marked</a></li>
+<li><a href="/docs/editor/tasks">tasks.json</a></li>
+</ul>
+<h2 id="Section-Title"><a href="#Section-Title" class="headerlink" title="Section Title"></a>Section Title</h2><blockquote>
+<p>This block quote is here for your information.</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Hello-Markdown-in-VS-Code&quot;&gt;&lt;a href=&quot;#Hello-Markdown-in-VS-Code&quot; class=&quot;headerlink&quot; title=&quot;Hello Markdown in VS Code!&quot;&gt;&lt;/a&gt;Hello Mark
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>First Independent Blog</title>
     <link href="http://yoursite.com/2016/09/04/mypost/"/>
     <id>http://yoursite.com/2016/09/04/mypost/</id>
-    <published>2016-09-04T13:52:16.155Z</published>
-    <updated>2016-09-04T12:51:54.000Z</updated>
+    <published>2016-09-04T12:51:54.432Z</published>
+    <updated>2016-09-04T12:51:54.432Z</updated>
     
     <summary type="html">
     
