@@ -4,36 +4,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/09/05/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2016-09-05T06:42:30.417Z</lastmod>
+    <loc>http://yoursite.com/2016/09/05/Start-Independent/</loc>
+    <lastmod>2016-09-05T13:36:07.916Z</lastmod>
     <data>
         <display>
-        <title>我的第一个独立博客</title>
-        <pubTime>2016-09-05T06:42:30.000Z</pubTime>
+        <title>Start Independent</title>
+        <pubTime>2016-09-05T13:10:37.000Z</pubTime>
         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/09/04/mypost/</loc>
-    <lastmod>2016-09-04T12:51:54.432Z</lastmod>
-    <data>
-        <display>
-        <title>First Independent Blog</title>
-        <pubTime>2016-09-04T12:51:54.432Z</pubTime>
-        
-        <tag>Thinking</tag>
-         
-        <tag>Start</tag>
+        <tag>start</tag>
          
          
            
              
-              <breadCrumb title="Life" url="http://yoursite.com/categories/Life/"/>
+              <breadCrumb title="life" url="http://yoursite.com/categories/life/"/>
           
         </display>
     </data>
