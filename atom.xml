@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-05T13:36:07.916Z</updated>
+  <updated>2016-10-02T13:55:39.794Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>字节序</title>
+    <link href="http://yoursite.com/2016/10/02/%E5%AD%97%E8%8A%82%E5%BA%8F/"/>
+    <id>http://yoursite.com/2016/10/02/字节序/</id>
+    <published>2016-10-02T13:08:09.000Z</published>
+    <updated>2016-10-02T13:55:39.794Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="字符编码的演变"><a href="#字符编码的演变" class="headerlink" title="字符编码的演变"></a>字符编码的演变</h5><ol>
+<li><font color="blue">ASCII </font>把128个字符映射到整数0~127，在计算机中以一个字节存储一个字符，但是仅仅实用于英语，无法适应各国语言。  </li>
+<li>各国不同的编码系统 。   </li>
+<li><font color="blue">Unicode </font>统一字符编码，到2016年，已经收录了135种语言共128237个字符；这些字符收录为统一字符集（Universal Coded Character Set）<br>每个字符映射到一个整数码点，码点的范围是0到0x10FFFF，码点通常记做U+XXXX，当中XXXX为16进制数字；这些字符无法像ASCII一一个字节存储。  <ul>
+<li>Unicode 制订了存储码点的方式，这些方式称为Unicode转换格式（Uniform Transformation Format, UTF）<br>每种UTF会把一个码点存储为一到多个<font color="red">编码单元</font>（code unit）<br>例如UTF-8的编码单元是8位的字节，UTF-16的编码单元是两个字节  </li>
+</ul>
+</li>
+</ol>
+<h5 id="编码单元与编码单元在网络中的传输顺序是固定的"><a href="#编码单元与编码单元在网络中的传输顺序是固定的" class="headerlink" title="编码单元与编码单元在网络中的传输顺序是固定的"></a>编码单元与编码单元在网络中的传输顺序是固定的</h5><p>有一些字符需要多个编码单元来编码，但是多个编码单元的相对顺序是不变的   </p>
+<h5 id="字节序是指编码单元内部的字节顺序"><a href="#字节序是指编码单元内部的字节顺序" class="headerlink" title="字节序是指编码单元内部的字节顺序"></a>字节序是指编码单元内部的字节顺序</h5><ol>
+<li>utf-8是变长编码，而且是单字节为编码单元，不存在高位和低位问题  </li>
+</ol>
+<ul>
+<li>解码时，utf-8记录了总字节数，读取首字节后再读取后续字节，然后进行解码，得到完整的字节数  </li>
+</ul>
+<ol>
+<li>utf-16是定长编码，由于硬件cpu的不同，编码单元内部字节与字节顺序不确定   </li>
+</ol>
+<p><font color="blue" size="4">综上</font><br>utf-8，utf-16在网络传输时都没有字节序列问题<br>但是在解码时，utf-8是单字节为编码单元，首字节记录总字节数目；utf-16是2个字节为编码单元，存在字节序问题<br>通过BOM（byte order mark）来标记字节顺序，然后计算机才能知道哪个是高位，哪个是低位，从而正确组装。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;字符编码的演变&quot;&gt;&lt;a href=&quot;#字符编码的演变&quot; class=&quot;headerlink&quot; title=&quot;字符编码的演变&quot;&gt;&lt;/a&gt;字符编码的演变&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;&lt;font color=&quot;blue&quot;&gt;ASCII &lt;/font&gt;把128个字符映射到整数
+    
+    </summary>
+    
+    
+      <category term="basic knowledge" scheme="http://yoursite.com/tags/basic-knowledge/"/>
+    
+  </entry>
   
   <entry>
     <title>Start Independent</title>
