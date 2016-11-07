@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-10-02T13:55:39.794Z</updated>
+  <updated>2016-11-07T03:15:04.646Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodejs安装</title>
+    <link href="http://yoursite.com/2016/11/07/nodejs%E5%AE%89%E8%A3%85/"/>
+    <id>http://yoursite.com/2016/11/07/nodejs安装/</id>
+    <published>2016-11-07T02:46:55.000Z</published>
+    <updated>2016-11-07T03:15:04.646Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="node-js是什么"><a href="#node-js是什么" class="headerlink" title="node.js是什么"></a>node.js是什么</h3><pre><code>服务器端Javascript解释器 
+npm是安装包管理器 
+</code></pre><h3 id="node-js在linux安装"><a href="#node-js在linux安装" class="headerlink" title="node.js在linux安装"></a>node.js在linux安装</h3><pre><code>1. 到node.js的中文官网上找到相应的安装包，这里没有使用二进制源文件直接编译的方式  
+2. 命令tar -xvf xxx-v.tar.gz  
+3. cd xxx-v, 使用node -v, npm -v可以查看安装成功之后的版本号，但是如果之前安装过nodejs的话，
+   退出当前目录，使用相同的命令，node和npm的版本不同，因此要将文件添加到全局
+4. linux的第三方软件安装在/usr/local中  
+   使用命令： sudo ln -s /home/jry/Downloads/node-v6.2.0-linux-x64/bin/node /usr/local/bin/node  
+             sudo ln -s /home/jry/Downloads/node-v6.2.0-linux-x64/bin/npm /usr/local/bin/npm   
+</code></pre><h3 id="node-js-使用"><a href="#node-js-使用" class="headerlink" title="node.js 使用"></a>node.js 使用</h3><pre><code>1. 写一段Javascript代码  
+2. 使用node test.js 测试，在浏览器中输入localhost:指定的端口号进行查看
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;node-js是什么&quot;&gt;&lt;a href=&quot;#node-js是什么&quot; class=&quot;headerlink&quot; title=&quot;node.js是什么&quot;&gt;&lt;/a&gt;node.js是什么&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;服务器端Javascript解释器 
+npm是安装包管理器 
+    
+    </summary>
+    
+    
+      <category term="configuration" scheme="http://yoursite.com/tags/configuration/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL</title>
+    <link href="http://yoursite.com/2016/11/05/MySQL/"/>
+    <id>http://yoursite.com/2016/11/05/MySQL/</id>
+    <published>2016-11-05T11:26:14.000Z</published>
+    <updated>2016-11-05T11:32:17.870Z</updated>
+    
+    <content type="html"><![CDATA[<p>‘’’sql<br>select * from tbl_name WHERE FALSE;<br>‘’’</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;‘’’sql&lt;br&gt;select * from tbl_name WHERE FALSE;&lt;br&gt;‘’’&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="database" scheme="http://yoursite.com/tags/database/"/>
+    
+  </entry>
   
   <entry>
     <title>字节序</title>
