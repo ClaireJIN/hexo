@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog von Jutta</title>
+  <subtitle>Enjoy yourself!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-11-07T03:15:04.646Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Jutta</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodejs安装</title>
+    <link href="http://yoursite.com/2016/11/07/nodejs%E5%AE%89%E8%A3%85/"/>
+    <id>http://yoursite.com/2016/11/07/nodejs安装/</id>
+    <published>2016-11-07T02:46:55.000Z</published>
+    <updated>2016-11-07T03:15:04.646Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="node-js是什么"><a href="#node-js是什么" class="headerlink" title="node.js是什么"></a>node.js是什么</h3><pre><code>服务器端Javascript解释器 
+npm是安装包管理器 
+</code></pre><h3 id="node-js在linux安装"><a href="#node-js在linux安装" class="headerlink" title="node.js在linux安装"></a>node.js在linux安装</h3><pre><code>1. 到node.js的中文官网上找到相应的安装包，这里没有使用二进制源文件直接编译的方式  
+2. 命令tar -xvf xxx-v.tar.gz  
+3. cd xxx-v, 使用node -v, npm -v可以查看安装成功之后的版本号，但是如果之前安装过nodejs的话，
+   退出当前目录，使用相同的命令，node和npm的版本不同，因此要将文件添加到全局
+4. linux的第三方软件安装在/usr/local中  
+   使用命令： sudo ln -s /home/jry/Downloads/node-v6.2.0-linux-x64/bin/node /usr/local/bin/node  
+             sudo ln -s /home/jry/Downloads/node-v6.2.0-linux-x64/bin/npm /usr/local/bin/npm   
+</code></pre><h3 id="node-js-使用"><a href="#node-js-使用" class="headerlink" title="node.js 使用"></a>node.js 使用</h3><pre><code>1. 写一段Javascript代码  
+2. 使用node test.js 测试，在浏览器中输入localhost:指定的端口号进行查看
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;node-js是什么&quot;&gt;&lt;a href=&quot;#node-js是什么&quot; class=&quot;headerlink&quot; title=&quot;node.js是什么&quot;&gt;&lt;/a&gt;node.js是什么&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;服务器端Javascript解释器 
+npm是安装包管理器 
+    
+    </summary>
+    
+    
+      <category term="configuration" scheme="http://yoursite.com/tags/configuration/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL</title>
+    <link href="http://yoursite.com/2016/11/05/MySQL/"/>
+    <id>http://yoursite.com/2016/11/05/MySQL/</id>
+    <published>2016-11-05T11:26:14.000Z</published>
+    <updated>2016-11-05T11:32:17.870Z</updated>
+    
+    <content type="html"><![CDATA[<p>‘’’sql<br>select * from tbl_name WHERE FALSE;<br>‘’’</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;‘’’sql&lt;br&gt;select * from tbl_name WHERE FALSE;&lt;br&gt;‘’’&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="database" scheme="http://yoursite.com/tags/database/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字节序</title>
+    <link href="http://yoursite.com/2016/10/02/%E5%AD%97%E8%8A%82%E5%BA%8F/"/>
+    <id>http://yoursite.com/2016/10/02/字节序/</id>
+    <published>2016-10-02T13:08:09.000Z</published>
+    <updated>2016-10-02T13:55:39.794Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="字符编码的演变"><a href="#字符编码的演变" class="headerlink" title="字符编码的演变"></a>字符编码的演变</h5><ol>
+<li><font color="blue">ASCII </font>把128个字符映射到整数0~127，在计算机中以一个字节存储一个字符，但是仅仅实用于英语，无法适应各国语言。  </li>
+<li>各国不同的编码系统 。   </li>
+<li><font color="blue">Unicode </font>统一字符编码，到2016年，已经收录了135种语言共128237个字符；这些字符收录为统一字符集（Universal Coded Character Set）<br>每个字符映射到一个整数码点，码点的范围是0到0x10FFFF，码点通常记做U+XXXX，当中XXXX为16进制数字；这些字符无法像ASCII一一个字节存储。  <ul>
+<li>Unicode 制订了存储码点的方式，这些方式称为Unicode转换格式（Uniform Transformation Format, UTF）<br>每种UTF会把一个码点存储为一到多个<font color="red">编码单元</font>（code unit）<br>例如UTF-8的编码单元是8位的字节，UTF-16的编码单元是两个字节  </li>
+</ul>
+</li>
+</ol>
+<h5 id="编码单元与编码单元在网络中的传输顺序是固定的"><a href="#编码单元与编码单元在网络中的传输顺序是固定的" class="headerlink" title="编码单元与编码单元在网络中的传输顺序是固定的"></a>编码单元与编码单元在网络中的传输顺序是固定的</h5><p>有一些字符需要多个编码单元来编码，但是多个编码单元的相对顺序是不变的   </p>
+<h5 id="字节序是指编码单元内部的字节顺序"><a href="#字节序是指编码单元内部的字节顺序" class="headerlink" title="字节序是指编码单元内部的字节顺序"></a>字节序是指编码单元内部的字节顺序</h5><ol>
+<li>utf-8是变长编码，而且是单字节为编码单元，不存在高位和低位问题  </li>
+</ol>
+<ul>
+<li>解码时，utf-8记录了总字节数，读取首字节后再读取后续字节，然后进行解码，得到完整的字节数  </li>
+</ul>
+<ol>
+<li>utf-16是定长编码，由于硬件cpu的不同，编码单元内部字节与字节顺序不确定   </li>
+</ol>
+<p><font color="blue" size="4">综上</font><br>utf-8，utf-16在网络传输时都没有字节序列问题<br>但是在解码时，utf-8是单字节为编码单元，首字节记录总字节数目；utf-16是2个字节为编码单元，存在字节序问题<br>通过BOM（byte order mark）来标记字节顺序，然后计算机才能知道哪个是高位，哪个是低位，从而正确组装。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;字符编码的演变&quot;&gt;&lt;a href=&quot;#字符编码的演变&quot; class=&quot;headerlink&quot; title=&quot;字符编码的演变&quot;&gt;&lt;/a&gt;字符编码的演变&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;&lt;font color=&quot;blue&quot;&gt;ASCII &lt;/font&gt;把128个字符映射到整数
+    
+    </summary>
+    
+    
+      <category term="basic knowledge" scheme="http://yoursite.com/tags/basic-knowledge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Start Independent</title>
+    <link href="http://yoursite.com/2016/09/05/Start-Independent/"/>
+    <id>http://yoursite.com/2016/09/05/Start-Independent/</id>
+    <published>2016-09-05T13:10:37.000Z</published>
+    <updated>2016-09-05T13:36:07.916Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Nothing-important-just-a-new-start-for-my-blog"><a href="#Nothing-important-just-a-new-start-for-my-blog" class="headerlink" title="Nothing important, just a new start for my blog."></a>Nothing important, just a new start for my blog.</h4><ul>
+<li>Wish it is not too late to be independent!  </li>
+<li>This blog is much younger than me.  </li>
+<li>As a CS student, I will use this blog to record what I’ve learned from you all.  </li>
+</ul>
+<h4 id="Finally-thanks-for-your-time"><a href="#Finally-thanks-for-your-time" class="headerlink" title="Finally, thanks for your time!"></a>Finally, thanks for your time!</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Nothing-important-just-a-new-start-for-my-blog&quot;&gt;&lt;a href=&quot;#Nothing-important-just-a-new-start-for-my-blog&quot; class=&quot;headerlink&quot; title=&quot;
+    
+    </summary>
+    
+      <category term="life" scheme="http://yoursite.com/categories/life/"/>
+    
+    
+      <category term="start" scheme="http://yoursite.com/tags/start/"/>
+    
+  </entry>
+  
+</feed>

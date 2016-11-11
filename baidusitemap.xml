@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/11/07/nodejs%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2016-11-07T03:15:04.646Z</lastmod>
+    <data>
+        <display>
+        <title>nodejs安装</title>
+        <pubTime>2016-11-07T02:46:55.000Z</pubTime>
+        
+        <tag>configuration</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/11/05/MySQL/</loc>
+    <lastmod>2016-11-05T11:32:17.870Z</lastmod>
+    <data>
+        <display>
+        <title>MySQL</title>
+        <pubTime>2016-11-05T11:26:14.000Z</pubTime>
+        
+        <tag>database</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2016/10/02/%E5%AD%97%E8%8A%82%E5%BA%8F/</loc>
+    <lastmod>2016-10-02T13:55:39.794Z</lastmod>
+    <data>
+        <display>
+        <title>字节序</title>
+        <pubTime>2016-10-02T13:08:09.000Z</pubTime>
+        
+        <tag>basic knowledge</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/09/05/Start-Independent/</loc>
+    <lastmod>2016-09-05T13:36:07.916Z</lastmod>
+    <data>
+        <display>
+        <title>Start Independent</title>
+        <pubTime>2016-09-05T13:10:37.000Z</pubTime>
+        
+        <tag>start</tag>
+         
+         
+           
+             
+              <breadCrumb title="life" url="http://yoursite.com/categories/life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
